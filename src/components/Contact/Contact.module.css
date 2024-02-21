@@ -1,0 +1,43 @@
+.contactContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.contacItems{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.contact svg{
+  font-size: 1.5rem;
+}
+
+.contactMedia{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.contactMedia svg{
+  font-size: 2rem;
+
+}
+
+

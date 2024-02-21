@@ -1,0 +1,26 @@
+.skillsContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.skillsContainer div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+
+.skillsContainer div div{
+  margin-top: 2rem;
+  background-color: #a76d86;
+  color: #fff;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  font-weight: bold;
+  padding: 1rem;
+}

@@ -1,0 +1,24 @@
+.portContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.portItems{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.portItems img{
+  width: 350px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.portItems img:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
